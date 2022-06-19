@@ -34,7 +34,6 @@ if cb == ("c"):
 
             
 else:
-        if cb == ("b"):
             for i in range(num):
                 code = "".join(random.choices(
                                 string.ascii_uppercase + string.digits + string.ascii_lowercase,
@@ -42,12 +41,6 @@ else:
                             ))
                 nitro = f"https://discord.gift/{code}"
                 hook.send(nitro)
-                print(Fore.WHITE + "[" + Fore.LIGHTGREEN_EX + "+" + Fore.WHITE + "]" + Fore.LIGHTGREEN_EX + f"Sended -> {nitro}\n")
-                
+                print(Fore.WHITE + "[" + Fore.LIGHTGREEN_EX + "+" + Fore.WHITE + "]" + Fore.LIGHTGREEN_EX + f"Sended -> {nitro}\n")            
 print("All the codes has been sended\n")
 input("Press Enter for exit...")
-        
-    
-    
-    
-    
